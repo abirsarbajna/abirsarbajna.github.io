@@ -13,13 +13,27 @@ header {
     text-align: center;
 }
 
-section {
-    padding: 40px 20px;
+section.pub-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pub-entry {
     background: white;
-    margin: 20px auto;
-    max-width: 800px;
+    margin: 15px;
+    padding: 10px;
+    max-width: 250px;
+    text-align: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
+}
+
+.pub-entry img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
 footer {
